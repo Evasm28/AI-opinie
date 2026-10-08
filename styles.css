@@ -1,0 +1,75 @@
+body {
+   background-image: url(AI\ versies.png);
+}
+
+/* dit mijn navigatie */
+ul {
+   display: flex;
+   list-style-type: none;
+   flex-wrap: wrap;
+   flex-direction: row;
+   justify-content: left;
+   padding: 0;
+   margin: 0 auto;
+   width: 100%;
+
+}
+li {
+   border: 3px solid Indigo;
+   background-color: MediumSlateBlue;
+   padding: 1em;
+   border-radius: 0%;
+   transition: all 250ms ease;
+}
+a {
+   text-decoration: none;
+   color: rgb(0, 191, 255);
+}
+
+h1 {
+   -webkit-text-stroke: 1px aqua;
+   color: rgb(0, 191, 255)
+}
+
+h2 {
+   text-decoration: underline;
+   -webkit-text-stroke: 1px aqua;
+   color: rgb(0, 191, 255)
+}
+
+.menu-label {
+   font-weight: bolder;
+   color: rgb(0, 191, 255);
+}
+
+
+p {
+   display: flex;
+   background-color: MediumSlateBlue;
+   border-style: dotted;
+}
+
+a:hover {
+   background-color: rgb(238, 69, 213);
+   padding: 1em;
+   border-radius: 0;
+   transform: scale(2);
+}
+
+a:focus {
+   background-color: rgb(238, 69, 213);
+   border: 5px solid rgb(238, 69, 213);
+   transform: scale (1.2);
+   border-radius: 0;
+}
+
+a:active {
+   font-weight: bold;
+   background-color: aquamarine;
+
+}
+
+imgage{
+   width: 100%;
+   height: 100vh;
+}
